@@ -1,0 +1,21 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/api:
+    specifiers:
+      '@pnpm-syncpack/shared': workspace:*
+    dependencies:
+      '@pnpm-syncpack/shared': link:../shared
+
+  packages/app:
+    specifiers:
+      '@pnpm-syncpack/shared': workspace:*
+    devDependencies:
+      '@pnpm-syncpack/shared': link:../shared
+
+  packages/shared:
+    specifiers: {}
