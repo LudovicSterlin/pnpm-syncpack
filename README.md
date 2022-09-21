@@ -2,7 +2,9 @@
 
 Minimalist example of [syncpack](https://github.com/JamieMason/syncpack) not working with `pnpm` [workspace protocol (`workspace:`)](https://pnpm.io/workspaces#workspace-protocol-workspace).
 
-This repo was created in with the only purpose to submit an issue in [syncpack](https://github.com/JamieMason/syncpack) repo.
+This repo was created with the only purpose to submit an issue in [syncpack](https://github.com/JamieMason/syncpack) repo.
+
+The issue is now resolved and can be found here [JamieMason/syncpack/issues/95](https://github.com/JamieMason/syncpack/issues/95)
 
 ## Prerequisites
 
@@ -11,7 +13,7 @@ This repo was created in with the only purpose to submit an issue in [syncpack](
 
 ## Error
 
-To see the error when using `workspace:*` as the version for locally developed packages.
+To see the error when using `workspace:*` as the version for locally developed packages. Everything here is done with default configurations.
 
 Run
 
